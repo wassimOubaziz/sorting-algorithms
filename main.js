@@ -117,6 +117,8 @@ button2.addEventListener("click", function () {
 });
 
 
+let small = 0;
+let temp = arr[0];
 
 function animateSection() {
   const anim = requestAnimationFrame(animateSection);
@@ -156,3 +158,4 @@ function animateSection() {
 button3.addEventListener("click", function () {
   animateSection();
 });
+
