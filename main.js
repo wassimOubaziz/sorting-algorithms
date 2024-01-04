@@ -114,6 +114,9 @@ button2.addEventListener("click", function () {
   animateInsertion();
 });
 
+let small = 0; // Declare the 'small' variable here
+let temp = arr[0]; // Declare the 'temp' variable here
+
 function animateSection() {
   const anim = requestAnimationFrame(animateSection);
 
