@@ -12,12 +12,18 @@ for (let i = 0; i < 50; i++) {
   arr.push(Math.floor(Math.random() * 13 + 1));
 }
 
+let i = 0, j = 0; // Initialize i and j here
+
+let small = 0;
+let temp = arr[0];
+
 for (let i = 0; i < arr.length; i++) {
   sort =
     sort +
     `<div class="sort"></div>
   `;
 }
+
 // add to bubble sort the sort element
 bubble.insertAdjacentHTML("afterbegin", sort);
 
@@ -49,8 +55,6 @@ function swap(arr, m, n) {
   arr[m] = arr[n];
   arr[n] = k;
 }
-
-let i = 0, j = 5;
 
 function animateBubble() {
   let anim = requestAnimationFrame(animateBubble);
@@ -115,10 +119,6 @@ button2.addEventListener("click", function () {
   animateInsertion();
 });
 
-
-let small = 0;
-let temp = arr[0];
-
 function animateSection() {
   const anim = requestAnimationFrame(animateSection);
 
@@ -157,4 +157,3 @@ function animateSection() {
 button3.addEventListener("click", function () {
   animateSection();
 });
-
