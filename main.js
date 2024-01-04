@@ -5,6 +5,8 @@ let sort = ``;
 const button1 = document.querySelector(".button.el1");
 const button2 = document.querySelector(".button.el2");
 const button3 = document.querySelector(".button.el3");
+et small = 0; // Declare the 'small' variable here
+let temp = arr[0]; // Declare the 'temp' variable here
 
 let arr = [5, 2, 3, 10, 6, 8, 4, 1];
 for (let i = 0; i < 50; i++) {
@@ -114,8 +116,7 @@ button2.addEventListener("click", function () {
   animateInsertion();
 });
 
-let small = 0; // Declare the 'small' variable here
-let temp = arr[0]; // Declare the 'temp' variable here
+
 
 function animateSection() {
   const anim = requestAnimationFrame(animateSection);
