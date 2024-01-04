@@ -7,6 +7,7 @@ const button2 = document.querySelector(".button.el2");
 const button3 = document.querySelector(".button.el3");
 
 let arr = [5, 2, 3, 10, 6, 8, 4, 1];
+
 for (let i = 0; i < 50; i++) {
   arr.push(Math.floor(Math.random() * 13 + 1));
 }
