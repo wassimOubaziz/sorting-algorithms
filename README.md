@@ -47,5 +47,6 @@ This project is open-source and available under the [MIT License](LICENSE).
 For any inquiries or suggestions, feel free to contact the developer:
 
 - **Email:** wassimdjaafar5@gmail.com
+- **LinkedIn:** [Wassim Oubaziz](https://www.linkedin.com/in/wassim-oubaziz/)
 
 🚀✨ Happy sorting!
